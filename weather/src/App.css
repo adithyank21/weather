@@ -1,0 +1,26 @@
+/* src/App.css */
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-image: url('./components/images/img1.jpg'); /* Your background image */
+  background-size: cover;
+  background-position: center;
+  height: 150vh; /*Full height of the viewport*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.8); /* Black with 80% opacity */
+
+
+  border-radius: 20px;
+  padding: 40px; /* Increased padding for more space */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  max-width: 300px; /* Limit width of the content */
+  width: 80%;
+  margin: 0; /* Reset margins to ensure centering */
+}
