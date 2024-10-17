@@ -2,7 +2,7 @@
 import React from 'react';
 import Weather from './components/weather';
 import Header from './components/header';
-import Footer from './components/Footer';
+import Footer from './components/footer';
 import './App.css'; // Custom CSS
 
 const App = () => {
