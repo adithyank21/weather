@@ -1,7 +1,7 @@
 // src/App.js
 import React from 'react';
-import Weather from './components/Weather';
-import Header from './components/Header';
+import Weather from './components/weather';
+import Header from './components/header';
 import Footer from './components/Footer';
 import './App.css'; // Custom CSS
 
