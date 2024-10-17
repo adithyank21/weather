@@ -1,22 +1,19 @@
 // src/App.js
 import React from 'react';
-import Weather from './components/weather';
-import './App.css'; // Import your CSS file
-import Footer from './components/footer';
+import Weather from './components/Weather';
+import Header from './components/Header';
+import Footer from './components/Footer';
+import './App.css'; // Custom CSS
 
 const App = () => {
     return (
-      <>
-      
-      <body>
-        
-        <div className="App">
-            <Weather />
-        </div>
-      </body>
-
-      
-        </>  
+        <>
+            <Header />
+            <div className="App">
+                <Weather />
+            </div>
+            <Footer />
+        </>
     );
 };
 

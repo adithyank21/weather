@@ -1,24 +1,19 @@
-import * as React from 'react';
-import AppBar from '@mui/material/AppBar';
-import Box from '@mui/material/Box';
-import Toolbar from '@mui/material/Toolbar';
-import Typography from '@mui/material/Typography';
-import IconButton from '@mui/material/IconButton';
-import MenuIcon from '@mui/icons-material/Menu';
+// src/components/Header.js
+import React from 'react';
+import { AppBar, Toolbar, Typography } from '@mui/material';
+import CloudIcon from '@mui/icons-material/Cloud';
 
-export default function Header() {
-  return (
-    <Box sx={{ flexGrow: 1 }}>
-      <AppBar position="static">
-        <Toolbar variant="dense">
-          <IconButton edge="start" color="inherit" aria-label="menu" sx={{ mr: 2 }}>
-            <MenuIcon />
-          </IconButton>
-          <Typography variant="h6" color="inherit" component="div">
-            Photos
-          </Typography>
-        </Toolbar>
-      </AppBar>
-    </Box>
-  );
-}
+const Header = () => {
+    return (
+        <AppBar position="static" style={{ backgroundColor: '#3f51b5' }}>
+            <Toolbar>
+                <CloudIcon style={{ marginRight: '10px', color: 'white' }} />
+                <Typography variant="h6" style={{ flexGrow: 1, color: 'white' }}>
+                    Weather Application
+                </Typography>
+            </Toolbar>
+        </AppBar>
+    );
+};
+
+export default Header;
